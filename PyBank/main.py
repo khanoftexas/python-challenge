@@ -39,7 +39,6 @@ with open(budget_csv, 'r') as csvfile:
     print(f"Total Months: {months_count}")
     print(f"Total: ${total_profit_loss}")
     print(f"Average Change: $ {average_profit_change}")
-#    # print(f"Total {:0,.0f}.format({total_profit_loss}).replace('$-')")
     print(f"Greatest Increase in Profits: {greatest_increase_row[0]} $ {greatest_increase_row[1]}")
     print(f"Greatest Decrease in Profits: {greatest_decrease_row[0]} $ {greatest_decrease_row[1]}")
   
@@ -51,7 +50,6 @@ output_file.write("----------------------------"+ '\n')
 output_file.write(f"Total Months: {months_count}"+ '\n')
 output_file.write(f"Total: ${total_profit_loss}"+ '\n')
 output_file.write(f"Average Change: ${average_profit_change}"+ '\n')
-#output_file.write(f"Total {:0,.0f}.format({total_profit_loss}).replace('$-')")
 output_file.write(f"Greatest Increase in Profits: {greatest_increase_row[0]} $ {greatest_increase_row[1]}"+ '\n')
 output_file.write(f"Greatest Decrease in Profits: {greatest_decrease_row[0]} $ {greatest_decrease_row[1]}"+ '\n')
  
