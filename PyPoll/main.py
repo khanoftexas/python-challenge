@@ -31,6 +31,6 @@ output_file.write(f"Total Votes: {vote_count}"+ '\n')
 output_file.write("-------------------------"+ '\n')
 
 output_file.write("-------------------------"+ '\n')   
-output_file.write(f"Winner: $"+ '\n')
+output_file.write(f"Winner: "+ '\n')
 output_file.write("-------------------------"+ '\n')
 output_file.close() 
