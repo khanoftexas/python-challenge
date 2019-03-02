@@ -18,7 +18,7 @@ print(f"Total Votes: {vote_count}")
 print(f"-------------------------")
 
 print(f"-------------------------")   
-print(f"Winner: $"+ '\n')
+print(f"Winner: "+ '\n')
 print(f"-------------------------")
 
 
